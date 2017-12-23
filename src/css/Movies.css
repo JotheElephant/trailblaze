@@ -1,0 +1,26 @@
+.movies {
+  margin: 0 auto;
+  padding: 10px 0px 0px 0px;
+  object-fit: cover;
+  width: 80%;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.movies > .row {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.movies > .row > [class*='col-'] {
+  display: inline-block;
+  float: none;
+}
+
+.col-xs-4 {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+}

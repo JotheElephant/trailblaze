@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  background-image: url(geometric-dark.jpg);
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-size:100% 100vh;
+}
